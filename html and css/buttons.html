@@ -3,12 +3,13 @@
     background-color: #B71007;
     color: white;
     border: none;
-    height: 40px;
-    width: 120px;
+    padding: 10px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    margin-left: 20px;
     transition: opacity 0.15s;
+    vertical-align: top;
   }
 
   #subscribe:hover {
@@ -22,13 +23,16 @@
     background-color: white;
     color: #085AA7;
     border: 1px solid #085AA7;
-    height: 40px;
-    width: 60px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
     transition: background-color 0.15s,
       color 1s;
+    vertical-align: top;
   }
 
   #join:hover {
@@ -45,11 +49,11 @@
     font-weight: bold;
     font-size: 15px;
     border: none;
-    height: 40px;
-    width: 80px;
+    padding: 10px;
     border-radius: 20px;
     cursor: pointer;
     transition: box-shadow 0.15s;
+    vertical-align: top;
   }
   #tweet:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
@@ -169,6 +173,32 @@
   a:active {
     color: blue;
   }
+
+  .navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .anchor {
+    color: purple;
+    margin: 5px;
+  }
+
+  #stretch {
+    background-color: #0BBE3A;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: padding 0.30s;
+  }
+  #stretch:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 </style>
 
 <button id="subscribe">SUBSCRIBE</button>
@@ -193,4 +223,17 @@
   <button class="amazon" id="add_to_cart">Add to Cart</button>
   <button class="amazon" id="buy_now">Buy now</button>
 </div>
+<br>
+<div>
+  <button class="navigation">Back</button>
+  <a href="#1" class="anchor">1</a>
+  <a href="#2" class="anchor">2</a>
+  <a href="#3" class="anchor">3</a>
+  <a href="#4" class="anchor">4</a>
+  <a href="#5" class="anchor">5</a>
+  <button class="navigation">Next</button>
+</div>
+<br>
+<button id="stretch">Stretch</button>
+
 
