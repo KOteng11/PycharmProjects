@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lesson 8 Exercises</title>
+    <style>
+      .textbox {
+        display: block;
+      }
+
+      p {
+        display: inline-block;
+        width: 200px;
+        border: 2px solid black;
+        vertical-align: middle;
+      }
+
+      .textbox-inline {
+        padding-left: 2px;
+        padding-right: 2px;
+        border: 2px solid black;
+      }
+      .google {
+        display: block;
+        margin-left: 400px;
+        margin-bottom: 10px;
+      }
+
+      .google-search {
+        width: 500px;
+        height: 30px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+        border: none;
+        padding-left: 10px;
+        margin-left: 270px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="google" src="google.png" alt="google logo" />
+    <input type="text" class="google-search" placeholder="Search Google or type a URL" />
+    <input class="textbox" type="text" placeholder="Name" name="name" style="margin-bottom: 8px; "/>
+    <input class="textbox" type="text" placeholder="Email" name="email" />
+    <p>Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <input class="textbox-inline" type="button" name="yes" value="Yes" />
+    <input class="textbox-inline" type="button" name="no" value="No" />
+  </body>
+</html>
