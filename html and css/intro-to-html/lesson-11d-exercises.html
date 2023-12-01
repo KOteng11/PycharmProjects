@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lesson 11d Exercises</title>
+    <style>
+
+      .profile-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+      }
+      p {
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: Arial;
+      }
+
+      .profile {
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: 1px 1px 5px rgba(96, 96, 96, 0.5);
+      }
+
+      .thumbnail {
+        object-fill: cover;
+        width: 100%;
+      }
+
+      .mutual-friends-row {
+        display: grid;
+        grid-template-columns: 34px 1fr;
+        align-content: center;
+      }
+
+      .profile-picture {
+        width: 100%;
+        object-fill: cover;
+        border-radius: 17px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+      }
+
+      .profile-button {
+        background-color: #088BE0;
+        color: white;
+        border-radius: 4px;
+        height: 35px;
+        width: 100px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        border: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+      }
+
+      .cat-name {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+
+      .mutual-friends {
+        color: #9E9E9E;
+        font-size: 16px;
+        margin-left: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-grid">
+      <div class="profile">
+        <img src="/images/cat1.jpg" class="thumbnail" />
+        <p class="cat-name">Oliver</p>
+        <div class="mutual-friends-row">
+          <img src="/channel-pictures/channel-1.jpeg" class="profile-picture" />
+          <p class="mutual-friends">2 mutual friends</p>
+        </div>
+        <button class="profile-button">Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img src="/images/cat2.jpg" class="thumbnail" />
+        <p class="cat-name">Oliver</p>
+        <div class="mutual-friends-row">
+          <img src="/channel-pictures/channel-2.jpeg" class="profile-picture" />
+          <p class="mutual-friends">2 mutual friends</p>
+        </div>
+        <button class="profile-button">Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img src="/images/cat3.jpg" class="thumbnail" />
+        <p class="cat-name">Oliver</p>
+        <div class="mutual-friends-row">
+          <img src="/channel-pictures/channel-3.jpeg" class="profile-picture" />
+          <p class="mutual-friends">2 mutual friends</p>
+        </div>
+        <button class="profile-button">Add Friend</button>
+      </div>
+    </div>
+
+  </body>
+</html>
