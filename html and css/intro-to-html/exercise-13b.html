@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+
+    .left-segment {
+      background-color: lightpink;
+      width: 100px;
+    }
+
+    .right-segment {
+      width: 200px;
+      background-color: lightblue;
+    }
+
+    .inner-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .row2 {
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="flexbox">
+    <div class="left-segment">
+
+    </div>
+    <div class="right-segment">
+      <div>row1</div>
+      <div class="inner-flex">
+        <div class="row2">row2</div>
+        <div class="row2">row2</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
