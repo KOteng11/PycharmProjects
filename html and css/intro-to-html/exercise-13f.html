@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    div {
+      font-family: Arial;
+    }
+
+    .profile {
+      border: 1px solid black;
+      height: 150px;
+      width: 400px;
+      display: flex;
+      flex-direction: row;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top:  10px;
+    }
+
+    .profile-picture-container {
+      width: 50px;
+      margin-right: 10px;
+    }
+
+    .profile-picture {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+
+    .profile-content {
+      flex: 1;
+    }
+
+    .video-content {
+      display: flex;
+      flex-direction: row;
+      border: 1px solid gray;
+      border-radius: 6px;
+    }
+
+    .gray-area {
+      width: 100px;
+      background-color: gray;
+    }
+
+    .video-area {
+      flex: 1;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      margin-left: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <div class="profile-picture-container">
+      <img class="profile-picture" src="/images/cat1.jpg" />
+    </div>
+    <div class="profile-content">
+      <div class="content-header">
+        supersimple.dev <span>@SuperSimpleDev</span>
+      </div>
+      <div class="content-description">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+      <div class="video-content">
+        <div class="gray-area">
+
+        </div>
+        <div class="video-area">
+          <div>youtube.com</div>
+          <div class="video-description">
+            Backend web development - a complete overview (2021)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

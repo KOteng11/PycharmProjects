@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    div {
+      font-family: Arial;
+    }
+    .flexbox {
+      display: flex;
+      flex-direction: column;
+      height: 240px;
+      width: 310px;
+      border-radius: 2px;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+      padding-right: 6px;
+
+    }
+
+    .all-inboxes {
+      font-size: 12px;
+      color: gray;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 12px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+    }
+
+    .profile-picture {
+      height: 40px;
+      border-radius: 25px;
+      margin-left: 10px;
+      margin-right: 8px;
+      object-fit: cover;
+    }
+
+    .inner-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .promotion {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .time {
+      font-size: 12px;
+      color: gray;
+    }
+
+    .promotion-name {
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .description {
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="flexbox">
+    <div class="all-inboxes">All INBOXES</div>
+    <div class="content">
+      <img class="profile-picture" src="/channel-pictures/channel-1.jpeg" />
+      <div class="content-header">
+        <div class="inner-content">
+          <div class="promotion">Chewy Promotions</div>
+          <div class="time">4:58 PM</div>
+        </div>
+        <div class="promotion-name">
+          Biggest sales of the year!
+        </div>
+        <div class="description">
+          Hey there! We're writing to tell you about our...
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <img class="profile-picture" src="/channel-pictures/channel-2.jpeg" />
+      <div class="content-header">
+        <div class="inner-content">
+          <div class="promotion">Best Buy</div>
+          <div class="time">12:32 PM</div>
+        </div>
+        <div class="promotion-name">
+          Your Best Buy eReceipt
+        </div>
+        <div class="description">
+          Thank you for shopping at Best Buy, here is...
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <img class="profile-picture" src="/channel-pictures/channel-3.jpeg" />
+      <div class="content-header">
+        <div class="inner-content">
+          <div class="promotion">Netflix</div>
+          <div class="time">9:00 PM</div>
+        </div>
+        <div class="promotion-name">
+          Here's what's coming soon to Netflix
+        </div>
+        <div class="description">
+          Brand new movies and shows, old favorites...
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
