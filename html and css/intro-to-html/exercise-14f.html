@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exercise 14f</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+      div {
+        font-family: Arial;
+      }
+      .sidebar {
+        background-color: #1F2125;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+
+      .sidebar2 {
+        background-color: #2E3034;
+        color: white;
+        position: fixed;
+        left: 70px;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .info {
+        font-size: 14px;
+      }
+      .plus {
+        font-weight: bold;
+        color: rgb(150, 150, 150);
+      }
+      .channel1 {
+        color: rgb(150, 150, 150);
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div>
+        <img class="profile-picture" src="/images/cat4.jpg" />
+      </div>
+      <div>
+        <img class="profile-picture" src="/images/cat7.jpg" />
+      </div>
+      <div>
+        <img class="profile-picture" src="/images/cat3.jpg" />
+      </div>
+    </div>
+    <div class="sidebar2">
+      <div class="header">
+        <div class="info">INFO</div>
+        <div class="plus">&#43;</div>
+      </div>
+      <div class="channel1"># new-videos</div>
+      <div class="channel1"># updates</div>
+      <div class="channel1"># faq</div>
+    </div>
+  </body>
+</html>

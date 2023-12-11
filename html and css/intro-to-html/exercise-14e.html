@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exercise 14e</title>
+    <style>
+      body {
+        height: 3000px;
+        background-color: gray;
+        padding-top: 50px;
+      }
+
+      .header {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+       }
+
+       .left-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 50px;
+       }
+
+       .profile-picture-container {
+        width: 40px;
+       }
+
+       .profile-picture {
+        width: 40px;
+        object-fit: cover;
+        border-radius: 20px;
+       }
+
+       .profile-name {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 12px;
+        margin-left: 10px;
+       }
+
+       .right-section {
+        margin-right: 50px;
+        font-family: Arial;
+        font-size: 4px;
+       }
+
+       button {
+        cursor: pointer;
+        font-family: Arial;
+        font-size: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 5px;
+        border: none;
+       }
+
+       .add-friend {
+        background-color: #3772D9;
+        color: white;
+
+       }
+
+       .message {
+        background-color: #E3E5E9;
+        margin-left: 10px;
+       }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div class="profile-picture-container">
+          <img class="profile-picture" src="/images/cat1.jpg" alt="cat1.jpg" />
+        </div>
+        <div class="profile-name">
+          Oliver Cat
+        </div>
+      </div>
+
+      <div class="right-section">
+        <button class="add-friend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+    <div>
+      This is the content
+    </div>
+  </body>
+</html>
