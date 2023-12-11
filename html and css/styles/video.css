@@ -9,7 +9,7 @@ font-weight: 500;
 font-size: 14px;
 margin-top: 0;
 line-height: 20px;
-margin-bottom: 12px;
+margin-bottom: 10px;
 }
 
 .video-info-grid {
@@ -18,12 +18,13 @@ grid-template-columns: 50px 1fr;
 }
 
 .profile-picture {
-width: 100%;
+width: 36px;
 border-radius: 25px;
 }
 
 .thumbnail-row {
-margin-bottom: 12px;
+margin-bottom: 8px;
+position: relative;
 }
 
 .video-author,
@@ -41,4 +42,20 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 row-gap: 40px;
 column-gap: 16px;
+}
+
+.video-time {
+ font-family: Roboto, Arial;
+ font-size: 12px;
+ font-weight: 500;
+ padding-left: 4px;
+ padding-right: 4px;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ background-color: black;
+ color: white;
+ position: absolute;
+ bottom: 8px;
+ right: 5px;
+ border-radius: 2px;
 }
